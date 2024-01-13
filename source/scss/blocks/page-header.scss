@@ -241,7 +241,7 @@
     display: block;
     color: inherit;
     padding: 0 0.5em 0.5em;
-    transition: color $default-transition ease;
+    transition: color $default-transition;
 
     &::after {
       content: "";
