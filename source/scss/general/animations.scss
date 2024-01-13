@@ -1,4 +1,4 @@
-@keyframes fadeInUp {
+@keyframes fadeInToUp {
   from {
     transform: translateY(30px);
     opacity: 0;
@@ -6,6 +6,18 @@
 
   to {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInToLeft {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
     opacity: 1;
   }
 }
