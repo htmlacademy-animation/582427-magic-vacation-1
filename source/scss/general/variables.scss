@@ -20,4 +20,5 @@ $retina-dppx: 1.5dppx;
 
 $index: 1.38871;
 
-$default-transition: 0.3s ease;
+$default-time-transition: 0.3s;
+$default-transition: $default-time-transition ease;
